@@ -1,0 +1,195 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  block-size: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  inline-size: 1200px;
+  block-size: 100%;
+  margin: auto;
+  color: #fff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  background-color: #514848;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.content {
+  display: flex;
+  align-items: end;
+  width: 1140px;
+  margin: 133px 0;
+  max-height: 534px;
+  gap: 30px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  width: 771px;
+  gap: 16px;
+}
+
+.result__video-container {
+  width: 711px;
+  height: 386px;
+}
+
+.result__video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.search-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.search-form__fieldset {
+
+}
+
+.search-form__fieldset-title {
+
+}
+
+.search-form__label {
+
+}
+
+.search-form__label-text {
+
+}
+
+.search-form__checkbox {
+
+}
+
+.search-form__checkbox-list {
+
+}
+
+.search-form__pseudo-checkbox {
+
+}
+
+.search-form__submit-button {
+
+}
+
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+} 
+
+.button {
+
+}
+
+.content__list {
+  height: 298px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: gray black;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+  gap: 30px;
+}
+
+.title {
+  font-size: 75px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 70.5px;
+  font-family: "Oswald", sans-serif;
+}
+
+.preloader-template {
+
+}
+
+.cards-list-item-template {
+
+}
+
+.content__list-item {
+
+}
+
+.content__card-link {
+
+}
+
+.content__video-card {
+
+}
+
+.content__video-card-description-container {
+
+}
+
+.content__video-card-title {
+
+}
+
+.content__video-card-description {
+
+}
+
+.content__video-card-thumbnail {
+  width: 194px;
+  height: 103px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.more-button {
+  background-color: transparent;
+}
+
+.more-button-template {
+
+}
+
+.error-template {
+
+}
