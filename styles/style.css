@@ -6,6 +6,7 @@
 
 html {
   block-size: 100%;
+  background-color: grey;
 }
 
 .page {
@@ -17,7 +18,9 @@ html {
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
-  background-color: #000000;
+  background-color: #1B1919;
+  width: 1200px;
+  height: 800px;
 }
 
 h1,
@@ -86,8 +89,14 @@ ol {
   font-size: 18px;
   font-family: "Firra Sans Condensed";
   appearance: none;
-  width: 225px;
+  min-width: 225px;
+  height: 26px;
+  color: #fff;
   background-color: transparent;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  border-right: 0;
+  border-left: 0;
 }
 
 .search-form__textfield:focus {
@@ -105,6 +114,7 @@ ol {
   display: flex;
   width: fit-content;
   cursor: pointer;
+  
 }
 
 .search-form__label:has(:focus-visible) {
@@ -114,6 +124,7 @@ ol {
 
 .search-form__label-text {
   appearance: none;
+  
 }
 
 .search-form__pseudo-checkbox {
@@ -150,8 +161,6 @@ ol {
   display: flex;
   width: 194px;
   height: 34px;
-  border-width: 2px;
-
 }
 
 .visually-hidden {
@@ -172,6 +181,7 @@ ol {
   font-size: 17px;
   background-color: transparent;
   color: #fff;
+  border: 1px solid #fff;
 }
 
 .button:focus {
@@ -273,6 +283,7 @@ ol {
   margin-block-start: 30px;
   color: #fff;
   width: 100%;
+  height: 34px;
   background-color: transparent;
   cursor: pointer;
 }
