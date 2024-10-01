@@ -20,7 +20,7 @@ html {
   font-size: 18px;
   background-color: #1B1919;
   width: 1200px;
-  height: 800px;
+  height: 100vh;
 }
 
 h1,
@@ -46,7 +46,6 @@ ol {
   display: flex;
   align-items: end;
   width: 1140px;
-  margin: auto;
   max-height: 534px;
   gap: 30px;
 }
