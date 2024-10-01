@@ -46,7 +46,7 @@ ol {
   display: flex;
   align-items: end;
   width: 1140px;
-  margin: 133px 0;
+  margin: auto;
   max-height: 534px;
   gap: 30px;
 }
@@ -194,7 +194,7 @@ ol {
 }
 
 .content__list {
-  
+  height: 298px;
   overflow: auto;
   scrollbar-width: thin;
   scrollbar-color: gray black;
