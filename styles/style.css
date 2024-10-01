@@ -6,7 +6,6 @@
 
 html {
   block-size: 100%;
-  background-color: grey;
 }
 
 .page {
@@ -114,7 +113,6 @@ ol {
   display: flex;
   width: fit-content;
   cursor: pointer;
-  
 }
 
 .search-form__label:has(:focus-visible) {
@@ -124,7 +122,6 @@ ol {
 
 .search-form__label-text {
   appearance: none;
-  
 }
 
 .search-form__pseudo-checkbox {
@@ -153,7 +150,6 @@ ol {
   display: flex;
   justify-content: center;
   gap: 15px;
-
   margin-bottom: 5px;
 }
 
@@ -223,14 +219,6 @@ ol {
   padding-top: 3px;
 }
 
-.preloader-template {
-
-}
-
-.cards-list-item-template {
-
-}
-
 .content__list-item {
   margin-bottom: 30px;
 }
@@ -286,12 +274,4 @@ ol {
   height: 34px;
   background-color: transparent;
   cursor: pointer;
-}
-
-.more-button-template {
-
-}
-
-.error-template {
-
 }
