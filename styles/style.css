@@ -46,7 +46,7 @@ ol {
   display: flex;
   align-items: end;
   width: 1140px;
-  max-height: 532px;
+  min-height: 532px;
   gap: 28px;
 }
 
@@ -55,13 +55,12 @@ ol {
   flex-direction: column;
   width: 771px;
   gap: 6px;
-  padding-bottom: 2px;
 }
 
 .result__video-container {
   width: 712px;
   height: 386px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   position: relative;
 }
 
@@ -122,7 +121,7 @@ ol {
   appearance: none;
   min-width: 225px;
   height: 27px;
-  margin-top: 5px;
+  margin-top: 3px;
   color: #fff;
   background-color: transparent;
   border-top: 1px solid #fff;
@@ -143,7 +142,7 @@ ol {
   display: flex;
   justify-content: center;
   gap: 15px;
-  margin-top: 6px;
+  margin-top: 4px;
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
@@ -181,11 +180,9 @@ ol {
 
 .search-form__submit-button {
   display: flex;
-  align-items: flex-end;
   width: 194px;
   height: 34px;
   margin: 4px 1px 0 0;
-  padding-top: 2px;
 }
 
 .button:active {
