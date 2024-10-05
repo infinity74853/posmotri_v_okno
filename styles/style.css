@@ -282,6 +282,7 @@ ol {
   min-height: 65px;
   margin-top: 4px;
   font-weight: 400;
+  max-width: 198px;
   font-family: "Fira Sans Condensed", sans-serif;
   color: #fff;
 }
