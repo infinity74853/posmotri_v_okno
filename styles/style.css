@@ -46,7 +46,7 @@ ol {
   display: flex;
   align-items: flex-end;
   width: 1140px;
-  min-height: 534px;
+  padding-top: 3px;
   gap: 30px;
 }
 
@@ -94,6 +94,7 @@ ol {
   display: flex;
   flex-direction: row;
   width: fit-content;
+  align-items: center;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -163,6 +164,10 @@ ol {
 .search-form__label-text:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
 }
 
 .button {
@@ -245,6 +250,10 @@ ol {
   outline: none;
 }
 
+.content__card-link:active {
+  background-color: #aaa0a0;
+}
+
 .content__card-link_current {
   background-color: #545050;
 }
@@ -303,4 +312,6 @@ ol {
   height: 34px;
   background-color: transparent;
   cursor: pointer;
+  font-weight: 700;
 }
+
