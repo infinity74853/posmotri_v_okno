@@ -180,6 +180,7 @@ ol {
   color: #fff;
   border: 1px solid #fff;
   font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
 }
 
 .search-form__submit-button {
@@ -312,6 +313,5 @@ ol {
   height: 34px;
   background-color: transparent;
   cursor: pointer;
-  font-weight: 700;
 }
 
